@@ -1,0 +1,43 @@
+//styleing för header och navbar
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $bisque-color;
+}
+
+.nav a {
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.nav a:hover {
+    text-decoration: underline $nav-hoover-color;
+}
+
+.active a {
+    text-decoration: underline $nav-active-color;
+}
+
+.active a:hover {
+    text-decoration: underline $nav-hoover-color;
+}
+
+.title, .logo {
+    padding: 3em 3em 3em 0;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    
+    .title {
+        min-width: 50%;
+    }
+    
+    .logo {
+        max-width: 30%;
+    }
+}

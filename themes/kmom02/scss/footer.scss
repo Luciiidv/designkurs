@@ -1,0 +1,14 @@
+//styling för footer
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 4px solid $black-color;
+    background-color: $bisque-color;
+    padding: 4rem 6rem;
+}
+
+.footer a {
+    color: $text-color;
+}

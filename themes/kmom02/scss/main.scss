@@ -1,0 +1,28 @@
+//Modul för style i main och body.
+
+html, body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    line-height: 1.4;
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.minbild {
+    max-width: 300px;
+    max-height: 300px;
+}
