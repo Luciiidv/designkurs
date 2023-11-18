@@ -1,9 +1,9 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,500&family=Roboto&display=swap");
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,500&family=Roboto&display=swap");
 .fa,
 .fas,
 .far,
@@ -6462,7 +6462,7 @@ img {
 
 body {
   line-height: 1.4;
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
 }
 
 * {
@@ -6492,7 +6492,7 @@ body {
 }
 
 .nav a:hover {
-  text-decoration: underline #00ffff;
+  text-decoration: underline #0ff;
 }
 
 .active a {
@@ -6500,7 +6500,7 @@ body {
 }
 
 .active a:hover {
-  text-decoration: underline #00ffff;
+  text-decoration: underline #0ff;
 }
 
 .title, .logo {
@@ -6521,9 +6521,10 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 4px solid #000000;
+  border-top: 4px solid #000;
   background-color: #ffe4c4;
   padding: 4rem 6rem;
+  margin-top: auto;
 }
 
 .footer a {
@@ -6535,6 +6536,73 @@ blockquote {
   margin-left: 1em;
   padding-left: 1em;
   border-left: 0.5em solid #f5f5f5;
+}
+
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+  max-width: 960px;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.css {
+  justify-self: center;
+  grid-column: span 1;
+}
+
+.git {
+  justify-self: center;
+  grid-column: span 1;
+}
+
+.html {
+  justify-self: center;
+  grid-column: span 2;
+}
+
+.javascript {
+  justify-self: center;
+  grid-column: span 2;
+}
+
+.php {
+  justify-self: center;
+  grid-column: span 1;
+}
+
+.python {
+  justify-self: center;
+  grid-column: span 3;
+}
+
+.sqlite {
+  justify-self: center;
+  grid-column: span 2;
+}
+
+.flexbox {
+  grid-column: span 3;
+  grid-row: span 5;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  max-width: 960px;
+}
+
+.technology-sidebar {
+  flex-grow: 1;
+}
+
+.technology-content {
+  flex-grow: 3;
 }
 
 code {
@@ -6615,5 +6683,16 @@ pre code {
     line-height: 2em;
     text-align: center;
     cursor: pointer;
+  }
+}
+@media screen and (max-width: 960px) {
+  .box {
+    grid-column: span 3;
+  }
+  .technology-content {
+    flex-grow: 1;
+  }
+  .technology-sidebar {
+    display: none;
   }
 }

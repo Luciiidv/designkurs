@@ -1,4 +1,5 @@
 //All styling.
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,500&family=Roboto&display=swap');
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
@@ -11,5 +12,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'header';
 @import 'footer';
 @import 'blockquotes';
+@import 'technology';
 @import 'code';
 @import 'mobile';

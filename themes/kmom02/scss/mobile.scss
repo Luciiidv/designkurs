@@ -54,3 +54,18 @@
         cursor: pointer;
     }
 }
+
+@media screen and (max-width: 960px) {
+    .box {
+        grid-column: span 3;
+    }
+    
+    .technology-content {
+        flex-grow: 1;
+    }
+    
+    .technology-sidebar {
+        display: none;
+    }
+    
+}
