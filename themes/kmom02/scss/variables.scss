@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,500&family=Roboto&display=swap');
+
+$font: 'Roboto', sans-serif;;
+$h-font: 'Open Sans', sans-serif;
+$font-weight: 1em;
+
 $font-color: #333;
-$font-alternative-color: #fff;
-$accent-color: #ee6c4d;
 $background-color: #f5f5f5;
-$background-alternative-color: #e0fbfc;
-$black-color: #000;
-$bisque-color: #ffe4c4;
-$text-color: #333;
-$nav-hoover-color: #0ff;
-$nav-active-color: #9acd32;
+$background-alternative-color: #ffe4c4;
+$footer-border-top: #7699AA;
+$nav-hoover-color: #C4ECFF;
+$nav-active-color: #806544;
+
+$logo-filter: brightness(2);
+$minbild-filter: brightness(1) contrast(1);

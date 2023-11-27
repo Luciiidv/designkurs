@@ -1,0 +1,24 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="flexbox">
+            <div class="technology-sidebar">
+            {% for page in pages("technology")|sort_by("time")|reverse if not page.hidden %}
+                <div class="post">
+                    <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+                </div>
+            {% endfor %}
+            </div>
+            <div class="technology-content">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

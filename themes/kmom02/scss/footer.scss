@@ -4,12 +4,16 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 4px solid $black-color;
-    background-color: $bisque-color;
+    border-top: 4px solid $footer-border-top;
+    background-color: $background-alternative-color;
     padding: 4rem 6rem;
     margin-top: auto;
 }
 
 .footer a {
-    color: $text-color;
+    color: $font-color;
+}
+
+.social a {
+    text-decoration: none;
 }

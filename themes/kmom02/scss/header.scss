@@ -3,13 +3,14 @@
 .header, .site-header {
     display: flex;
     justify-content: space-between;
-    background-color: $bisque-color;
+    background-color: $background-alternative-color;
 }
 
 .nav a {
     font-size: 2rem;
     text-decoration: none;
     margin: 0 auto;
+    color: $font-color;
 }
 
 .nav a:hover {
@@ -20,12 +21,12 @@
     text-decoration: underline $nav-active-color;
 }
 
-.active a:hover {
-    text-decoration: underline $nav-hoover-color;
-}
-
 .title, .logo {
     padding: 3em 3em 3em 0;
+}
+
+.logo {
+    filter: $logo-filter;
 }
 
 @media (max-width: 767px) {
