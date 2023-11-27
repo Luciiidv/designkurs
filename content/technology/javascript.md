@@ -1,21 +1,8 @@
 ---
 Title: Javascript
 Description: Page about Javascript.
-Template: technologies
+Template: technology
 ---
-<div class="flexbox">
-
-<div class="technology-sidebar">
-<p><a href="%base_url%?technology/css">CSS</a></p>
-<p><a href="%base_url%?technology/html">HTML</a></p>
-<p><a href="%base_url%?technology/javascript">JAVASCRIPT</a></p>
-<p><a href="%base_url%?technology/php">PHP</a></p>
-<p><a href="%base_url%?technology/python">PYTHON</a></p>
-<p><a href="%base_url%?technology/git">GIT</a></p>
-<p><a href="%base_url%?technology/sqlite">SQLITE</a></p>
-</div>
-
-<div class="technology-content">
 # JavaScript
 
 JavaScript är ett prototyp-baserat skriptspråk. JavaScript utgör tillsammans med HTML och CSS grunden för webben. JavaScript är dynamiskt, svagt typat och hanterar funktioner som första-klass-objekt.
@@ -31,6 +18,3 @@ for (let i = 1; i <= 100; i++) {
     }
 }
 ```
-</div>
-
-</div>

@@ -1,21 +1,8 @@
 ---
 Title: CSS
 Description: Page about CSS.
-Template: technologies
+Template: technology
 ---
-<div class="flexbox">
-
-<div class="technology-sidebar">
-<p><a href="%base_url%?technology/css">CSS</a></p>
-<p><a href="%base_url%?technology/html">HTML</a></p>
-<p><a href="%base_url%?technology/javascript">JAVASCRIPT</a></p>
-<p><a href="%base_url%?technology/php">PHP</a></p>
-<p><a href="%base_url%?technology/python">PYTHON</a></p>
-<p><a href="%base_url%?technology/git">GIT</a></p>
-<p><a href="%base_url%?technology/sqlite">SQLITE</a></p>
-</div>
-
-<div class="technology-content">
 # CSS
 
 Cascading Style Sheets är språk för att beskriva utseende av element i ett markup language till exempel HTML. CSS är en av tre teknologier som utgör fundamentet för webben.
@@ -29,6 +16,3 @@ p {
     color: blue;
 }
 ```
-</div>
-
-</div>
