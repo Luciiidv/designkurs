@@ -6457,13 +6457,14 @@ html, body {
   height: 100%;
 }
 
-img {
+img, embed, object, video {
   max-width: 100%;
 }
 
 body {
   line-height: 1.4;
   background-color: #121212;
+  overflow-x: hidden;
 }
 
 * {
@@ -6486,14 +6487,24 @@ body {
   max-height: 200px;
 }
 
+.surflinebild {
+  max-width: 400px;
+  max-height: 300px;
+}
+
+.pagespeed {
+  max-width: 100px;
+  max-height: 50px;
+}
+
 .header, .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: #121212;
+  background-color: #333333;
 }
 
 .nav a {
-  font-size: 2rem;
+  font-size: 1em;
   text-decoration: none;
   margin: 0 auto;
   color: #CCCCCC;
@@ -6530,7 +6541,7 @@ body {
   display: flex;
   justify-content: space-between;
   border-top: 4px solid #CCCCCC;
-  background-color: #121212;
+  background-color: #333333;
   padding: 4rem 6rem;
   margin-top: auto;
 }
@@ -6616,6 +6627,20 @@ blockquote {
 
 .technology-content {
   flex-grow: 3;
+}
+
+.gallery {
+  display: grid;
+  gap: 1em 1em;
+  max-width: 960px;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.photo {
+  justify-self: center;
+  grid-column: span 1;
 }
 
 code {
