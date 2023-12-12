@@ -5,11 +5,17 @@
     margin: 0 auto;
     grid-template-columns:  repeat(3, 1fr);
     grid-template-rows:  repeat(2, 250px);
+    border: 5px solid $footer-border-top;
+    margin: 2px;
 }
 
 .photo {
     justify-self: center;
     grid-column: span 1;
+}
+
+.photo:hover {
+    border: 3px solid $footer-border-top;
 }
 
 .embed-container {
@@ -18,6 +24,7 @@
     height: 0;
     overflow: hidden;
     max-width: 100%;
+    margin-bottom: 2px;
 }
 
 .embed-container iframe,

@@ -20,16 +20,26 @@
 .git {
     justify-self: center;
     grid-column: span 1;
+    border: 3px solid $footer-border-top;
+    padding: 1em;
+    margin: 2px;
+    border-radius: 10px;
 }
 
 .html {
     justify-self: center;
     grid-column: span 2;
+    border: 3px solid $footer-border-top;
+    padding: 1em;
+    border-radius: 10px;
 }
 
 .javascript {
     justify-self: center;
     grid-column: span 2;
+    border: 3px solid $footer-border-top;
+    padding: 1em;
+    border-radius: 10px;
 }
 
 .php {
@@ -40,6 +50,9 @@
 .python {
     justify-self: center;
     grid-column: span 3;
+    border: 3px solid $footer-border-top;
+    padding: 1em;
+    border-radius: 10px;
 }
 
 .sqlite {

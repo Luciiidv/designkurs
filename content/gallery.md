@@ -46,5 +46,5 @@ Gallery
 </div>
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/eSs-FeG-TLM" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/eSs-FeG-TLM" frameborder="0" allowfullscreen title="videogallery"></iframe>
 </div>
